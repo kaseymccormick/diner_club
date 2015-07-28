@@ -2,7 +2,8 @@ require_relative "dinner_club.rb"
 #collecting club members
 puts "Who is in the dinner club? (Comma-sperated)"
 people = gets.chomp
-#creating dinnerclub with those members
+#creating dinnerclub instance 
+#returns those members in an array
 dc = DinnerClub.new(people.split(", "))
 
 puts "Want to enter a dinner event?"
